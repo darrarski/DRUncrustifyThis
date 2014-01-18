@@ -26,7 +26,7 @@ Create a symbolic link to the script in /usr/bin (required for running it from X
 
 You can use the script from Terminal, just go to your project's directory and run:
 
-	uncrustifythis --all
+	uncrustify-objc --all
 
 to apply formating on all files in current directory and all subdirectories. There are also options for applying formating only on changed or staged files (requires for the files to be managed by git repository) or specifying the files to uncrustify.
 
