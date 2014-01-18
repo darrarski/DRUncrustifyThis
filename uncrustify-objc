@@ -100,6 +100,9 @@ function FilterAndRun() {
 if [[ ! -z $XcodeProjectPath ]]; then
     cd "$XcodeProjectPath/.."
     OPTION="--all"
+elif [[ ! -z $XcodeWorkspacePath ]]; then
+    cd "$XcodeWorkspacePath/.."
+    OPTION="--all"
 else
     OPTION="$1"
 fi
