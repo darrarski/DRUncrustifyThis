@@ -27,18 +27,18 @@ LANGUAGE='OC'
 function Usage() {
     echo "Formats Objective-C code using uncrustify."
     echo 
-    echo "Usage: uncrustifythis option"
+    echo "Usage: uncrustify-objc option"
     echo 
-    echo "  uncrustifythis --all"
+    echo "  uncrustify-objc --all"
     echo "    # Runs on all source files under the current directory"
     echo 
-    echo "  uncrustifythis --changed"
+    echo "  uncrustify-objc --changed"
     echo "    # Runs on files changed (staged or not) in git repository"
     echo 
-    echo "  uncrustifythis --staged"
+    echo "  uncrustify-objc --staged"
     echo "    # Runs on files staged in git repository"
     echo 
-    echo "  uncrustifythis files"
+    echo "  uncrustify-objc files"
     echo "    # Runs on the given files"
     echo 
     exit 1
